@@ -20,6 +20,9 @@ public class IndexController {
         return "hello world :"+msg;
     }
 
+
+    
+
     @GetMapping("/index")
     public String indexPage(){
         return "index";
